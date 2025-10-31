@@ -2,4 +2,33 @@ h1{
     font-size: 40px;
     font-weight: 700;
     font-style: normal;
+    background-color: chartreuse;
+    margin: 20px;
+    /* padding: 20px; */
+    /* width: min-content; */
+    width:max-content;
+    width: 30vw;
+    height: 30vh;
+
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+/* p{
+    width: max-content;
+} */
+.form{
+    /* margin: 20px 20px 80px 90px; */
+    /* padding-top: 30px; */
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* display: inline; */
+    /* display: block; */
+    
+    position: fixed;
+    top: 20%;
+    left: 70%;
+ }
