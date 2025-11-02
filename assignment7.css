@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header img{
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+header{
+    background-color: black;
+    margin: 10px 10px 10px 10px;
+    padding: 0;
+}
+.tophead{
+    display: flex;
+}
+.shift{
+    background-color: bisque;
+    width: 200px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.nav{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+.css{
+    background-color: aqua;
+    width: 30px;
+    border: 2px solid black;
+    text-align: center;
+}
+.html5{
+    background-color: chartreuse;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+}
+.aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.one{
+    background-color: aqua;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.two{
+    background-color: aqua;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.three{
+    background-color: aqua;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.four{
+    background-color: aqua;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.five{
+    background-color: aqua;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.six{
+    background-color: aqua;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.seven{
+    background-color: aqua;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.eight{
+    background-color: aqua;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.nine{
+    background-color: aqua;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+.red{
+    background-color: red;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    width: 300px;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+.grey{
+    background-color: gray;
+    color: white;
+    margin-top: ;
+    margin-bottom: 5px;
+    width: 300px;
+    padding-top: 2px;
+    padding-left: 2px;
+    height: 50px;
+}
+.blue{
+    background-color: blue;
+    color: white;
+    width: 300px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    height: 50px;
+}
+footer img{
+    border-radius: 50%;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
