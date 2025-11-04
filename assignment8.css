@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.message{
+    width: max-content;
+    text-align: center;
+}
+.column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 1fr 1fr); gap: 10px;
+    font-weight: 800;
+}
