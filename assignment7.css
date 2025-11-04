@@ -15,12 +15,16 @@ header{
 }
 .tophead{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .shift{
     background-color: bisque;
-    width: 200px;
+    display: flex;
+    /* width: 200px; */
     text-align: center;
-    margin-left: 500px;
+    align-self:self-end;
+    /* margin-left: 500px; */
     margin-top: 5px;
     margin-bottom: 30px;
     font-style: italic;
@@ -31,7 +35,7 @@ header{
 }
 .css{
     background-color: aqua;
-    width: 30px;
+    width: 30px; 
     border: 2px solid black;
     text-align: center;
 }
@@ -133,3 +137,4 @@ footer{
     justify-content: space-between;
     margin: 10px;
 }
+
