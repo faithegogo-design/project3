@@ -38,13 +38,58 @@ header{
     width: 30px; 
     border: 2px solid black;
     text-align: center;
-    animation: tola 5s infinite ease-in-out;
+    animation: css 5s infinite ease-in-out;
+}
+@keyframes css{
+    0%{
+        background-color: red;
+        translate: 0px;
+    }
+    25%{
+        background-color: yellow;
+        translate: 50px;
+    }
+    50%{
+        background-color: aqua;
+        translate: 100px;
+    }
+    75%{
+        background-color: green;
+        translate: 50px;
+    }
+    100%{
+        background-color: blueviolet;
+        translate: 0px;
+    }
 }
 .html5{
     background-color: chartreuse;
     width: 50px;
     border: 2px solid black;
     text-align: center;
+    animation: html5 5s infinite ease-in-out;
+}
+@keyframes html5{
+    0%{
+        background-color: red;
+        translate: 100px;
+    }
+    25%{
+        background-color: yellow;
+        translate: 50px;
+    }
+    50%{
+        background-color: aqua;
+        translate: 0px;
+    }
+    75%{
+        background-color: green;
+        translate: 50px;
+    }
+    100%{
+        background-color: blueviolet;
+        translate: 100px;
+    }
 }
 @keyframes tola {
     0%{background-color: aqua;translate: 0px 0px;}
