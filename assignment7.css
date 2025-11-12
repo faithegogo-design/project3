@@ -38,12 +38,20 @@ header{
     width: 30px; 
     border: 2px solid black;
     text-align: center;
+    animation: tola 5s infinite ease-in-out;
 }
 .html5{
     background-color: chartreuse;
     width: 50px;
     border: 2px solid black;
     text-align: center;
+}
+@keyframes tola {
+    0%{background-color: aqua;translate: 0px 0px;}
+    25%{background-color: yellow;translate: 50px 0px;}
+    50%{background-color: red;translate: 100px 0px;}
+    75%{background-color: green;translate: 50px 0px;}
+    100%{background-color: aquamarine;translate: 0px 0px;}
 }
 .aside{
     display: flex;
