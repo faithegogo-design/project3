@@ -32,6 +32,11 @@ body{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.2s ease-in;
+}
+.fullscreen_header nav a:hover{
+    color: blue;
+    text-decoration: underline;
 }
 .smallscreen_header{
     display: none;
@@ -39,7 +44,7 @@ body{
     gap: 30px;
     background-color: navy;
     color: white;
-    width: 100vw;
+    width: 95vw;
     padding: 10px;
     font-family: sans-serif;
     height: 200px;
@@ -56,6 +61,7 @@ body{
     font-size: 25px;
     font-weight: 500;
     justify-content: space-between;
+    unicode-bidi: isolate;
 }
 .smallscreen_header nav a{
     color: white;
@@ -243,6 +249,11 @@ input{
     height: 50px;
     color: navy;
     margin-left: 80px;
+    transition: 0.3s ease-in;
+}
+.sub:hover{
+    color: white;
+    background-color: navy;
 }
 .formp{
     font-size: 45px;
@@ -260,7 +271,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     background-color: navy;
-    width: 95vw;
+    width: 1000px;
     color: white;
     position: static;
     bottom: 0;
@@ -271,7 +282,7 @@ footer img{
     object-fit: cover;
     padding: 10px;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     body{
         display: flex;
         flex-direction: column;
@@ -283,6 +294,13 @@ footer img{
     }
     .smallscreen_header{
         display: flex;
+    }
+    .smallscreen_header nav a{
+        align-self: flex-end;
+        transition: 0.2s ease-in;
+    }
+    .smallscreen_header nav a:hover{
+        color: blue;
     }
     .name{
         font-size: 25px;
@@ -335,13 +353,16 @@ footer img{
     .form{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-self: center;
+        justify-self: center;
+        width: 85%;
     }
     .formname{
         width: 85%;
         text-align: center;
         margin: 0;
+        align-self: center;
+        justify-self: center;
     }
     .form h3{
         font-size: 30px;
@@ -356,26 +377,35 @@ footer img{
         margin-bottom: 50px;
     }
     input{
-        width: 200px;
+        width: 150px;
         height: 20px;
     }
     .area{
-        width: 200px;
+        width: 150px;
     }
     .sub{
-        width: 100px;
+        width: 40%;
         font-size: 15px;
-        height: 40px;
+        height: 30px;
         text-align: center;
-        margin-right: 70px;
+        align-self: center;
+        justify-self: center;
+        padding: 0;
+        margin: 0;
+        transition: 0.2s ease-in;
+    }
+    .sub:hover{
+        background-color: navy;
+        color: white;
     }
     .formp{
-        margin-left: 0;
         font-size: 20px;
-        width: 300px;
-        height: 150px;
-        margin-right: 80px;
+        width: 85%;
+        height: 120px;
         margin-bottom: 50px;
+        align-self: center;
+        justify-self: center;
+        margin-left: 30px;
     }
     footer{
         margin: 0 !important;
@@ -385,6 +415,7 @@ footer img{
         justify-content: space-between;
         padding: 10px;
         font-size: 15px;
+        width: 90%;
     }
     footer img{
         width: 30px !important;
